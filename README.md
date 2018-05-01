@@ -7,3 +7,6 @@ A single formal neuron with fixed weights and bias is implemented. It is then us
 The following picture shows the line (yellow triangles), and some random input points. Each input point goes through the neuron. The neuron output is the classification of the input. In the picture, the color of an input point indicates the classification decided by the neuron.
 
 ![alt text](SingleFormalNeuron/single_formal_neuron_classification.png "Classification based on a single formal neuron")
+
+## Single formal neuron training
+The goal of training is to adapt the weights and bias so the neuron is able to classify correctly data with known classification. It is supervised learning. The training algorithm for a single formal neuron is implemented.
