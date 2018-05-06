@@ -15,3 +15,6 @@ The goal of training is to adapt the weights and bias so the neuron is able to c
 The formal neuron is limited to the input patterns linearly separable. The XOR problem cannot be solved with a single formal neuron. In this example, the association of 3 neurons (2 in a hidden layer, and one in the output layer) is able to solve the XOR problem.
 
 ![alt text](XORNeuralNetwork/XOR_classification.PNG "XOR classification with a simple neural network")
+
+## Linear regression
+In this example, we consider a set of observations of the selling price of houses considering some house properties. The goal is to propose a linear model of the price from the observations. An evaluation of the model is introduced, and a method to compute the model coefficients.
