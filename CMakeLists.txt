@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.11)
+
+project(machinelearningeducation)
+
+add_subdirectory(SingleFormalNeuron)
+add_subdirectory(SingleFormalNeuronTraining)
+add_subdirectory(XORNeuralNetwork)
+add_subdirectory(LinearRegression)
