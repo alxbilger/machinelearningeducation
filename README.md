@@ -2,9 +2,14 @@
 Simple examples to learn machine learning in C++
 
 ## [Single formal neuron](SingleFormalNeuron/main.cpp)
+
+<p align="center">
+<img src="SingleFormalNeuron/perceptron.svg" height="480"/>
+</p>
+
 A single formal neuron with fixed weights and bias is implemented. It is then used to classify input in 2D. Considering the weights, the neuron is supposed to classify input to each side of the line which equation is y=(4x+1)/3.
 
-The following picture shows the line (yellow triangles), and some random input points. Each input point goes through the neuron. The neuron output is the classification of the input. In the picture, the color of an input point indicates the classification decided by the neuron.
+The following picture shows the line of equation y=(4x+1)/3, and some random input points. Each input point goes through the neuron. The neuron output is the classification of the input. In the picture, the color of an input point indicates the classification decided by the neuron.
 
 <p align="center">
 <img src="SingleFormalNeuron/single_formal_neuron_classification.png" height="480"/>
