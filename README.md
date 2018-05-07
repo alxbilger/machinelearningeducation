@@ -13,6 +13,10 @@ The following picture shows the line (yellow triangles), and some random input p
 ## [Single formal neuron training](SingleFormalNeuronTraining/main.cpp)
 The goal of training is to adapt the weights and bias so the neuron is able to classify correctly data with known classification. It is supervised learning. The training algorithm for a single formal neuron is implemented.
 
+<p align="center">
+<img src="SingleFormalNeuronTraining/neuron_training.gif" height="480"/>
+</p>
+
 ## [First neural network: the XOR problem](XORNeuralNetwork/main.cpp)
 The formal neuron is limited to the input patterns linearly separable. The XOR problem cannot be solved with a single formal neuron. In this example, the association of 3 neurons (2 in a hidden layer, and one in the output layer) is able to solve the XOR problem.
 
